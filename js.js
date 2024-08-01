@@ -1,2 +1,0 @@
-function color(fc,bc,id){document.getElementById(id).style.color=fc;document.getElementById(id).style.backgroundColor=bc;}
-class TopImg extends HTMLElement {constructor() {super();const shadow = this.attachShadow({mode: 'open'});const img = document.createElement('img');img.src = this.getAttribute('src');img.width = "auto";img.height = "50px";shadow.appendChild(img);}}customElements.define('top-img', TopImg);
